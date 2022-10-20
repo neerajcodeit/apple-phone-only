@@ -1,0 +1,120 @@
+@media only screen and (max-width: 500px) {
+
+    
+.section1 .banner-img img{
+    height: 336px;
+    width: 277px ;
+  
+}
+.banner-text{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner-text h4{
+margin-top: 9px;
+}
+
+.banner-text .pink-gradient{
+    font-size: 40px;
+    line-height: 44px;
+    margin: 16px 0;
+}
+
+.banner-text h3{
+    font-size: 17px;
+    line-height: 25px;
+    max-width: 150px;
+}
+.banner-link{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.banner-link .blue-back{
+    color: rgb(255, 255, 255);
+    background: rgb(0, 113, 227);
+    padding: 8px 16px;
+    border-radius: 27px;
+    margin-bottom: 14px;
+}
+.banner-link .learn-more{
+    color: rgb(41, 151, 255);
+    font-size: 19px;
+    line-height: 1.21053;
+    font-weight: 400;
+}
+
+.section2-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section2-text h1{
+    font-size: 40px;
+}
+.section2-text h5{
+    max-width: 200px;
+}
+.section2 .section2-text .text-gray{
+    max-width: 380px;
+}
+.link-box {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section2 .link-box {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+}
+/* .link-box .blue-back {
+    padding: 5px 0px;
+    background-color: #0077ED;
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 26px;
+    border-radius: 36px;
+} */
+
+
+.section2-img img{
+    width: 349px;
+    height: 317px;
+}
+.section3-text .blue-gradient{
+    font-size: 40px;
+}
+
+
+
+.section4-text h1 {
+    font-size: 32px;
+    font-weight: 600;
+    /* letter-spacing: -.28px; */
+}
+.section5-text h2 {
+    font-size: 32px;
+    font-weight: 600;
+    /* line-height: 52px; */
+    color: #1D1D1F;
+    letter-spacing: -1px;
+}
+.section5-text p {
+    margin: 0 auto;
+    font-size: 16px;
+    margin-top: 21px;
+    line-height: 26px;
+    max-width: 250px;
+    margin-bottom: 1rem;
+}
+
+
+
+
+}

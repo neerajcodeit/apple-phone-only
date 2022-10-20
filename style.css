@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(44, 134, 224);
+}
+.lower_nav{
+    width: 100%;
+    height: 30px;
+}
+.lower_Text{
+    margin-top: 7px;
+}
+.lower_Text h3{
+    font-size: 14px;
+}
+/* .section{
+    width: 100%;
+    height:100vh;
+    margin-top: 6px;
+    padding: 12px 8px;
+
+} */
+.section1{
+    max-width: 100%;
+    height: 100vh;
+
+}
+
+
+.text_container h1{
+    font-size: 4rem;
+    color:#212529;
+    font-weight: 700;
+    font-family: 
+    Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+}
+.text_container h4{
+    font-size: 28px;
+    color:#212529;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text_container a{
+    font-size: 22px;
+    font-weight: 400;
+    margin-right: 12px;
+
+}
+.text_container a:hover{
+    text-decoration: underline;
+    transition: all 0.4s;
+
+}
+.section2{
+    background-image: url('./images/3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  
+}
+.text_container2 h1{
+    font-size: 3.50rem;
+    color:#212529;
+    font-style: italic;
+    font-weight: 700;
+    font-family: 
+    Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+}
+span{
+    color: rgb(202, 33, 102);
+}
+.text_container2 h4{
+    font-size: 30px;
+    color:#212529;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text_container2 a{
+    font-size: 22px;
+    font-weight: 400;
+
+}
+.pink{
+    padding-right: 41px;
+    padding-top: 4rem;
+}
+.text_container h2{
+    font-size: 2.25rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+.pink p{
+    text-align: center;
+    line-height: 1.5rem;
+}
+.pink a{
+   
+        font-size: 18px;
+        font-weight: 400;
+    
+    
+}
+.k{
+    position: relative;
+}
+.texthere{
+    position: absolute;
+    top: 19%;
+    left: 33%;
+    text-align: center;
+    width: 37%;
+}
+
+.featured{
+    width: 100%;
+    height: 162px;
+    background: lightgray;
+}
+.featured .text_here{
+   text-transform: uppercase;}
+
+
+.tv{
+    padding-top: 80px;
+}
+.tvimg{
+    width: 70%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+.card1{
+    background-image: url('./images/img1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    color: aliceblue;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.card_text{
+  cursor: pointer;
+   margin-bottom: 20px;
+}
+
+.card_text p{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+}
+.card_text a{
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.card2{
+    background-image: url('./images/img2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+   
+    display: flex;
+  
+    justify-content: center
+  
+}
+.card3{
+    background-image: url('./images/img3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+   
+    display: flex;
+  
+    justify-content: center
+  
+}
+.card_text3{
+    cursor: pointer;
+     margin-bottom: 20px;
+  }
+  .card_text3 h2{
+      font-size: 42px;
+      font-weight: 500;margin: 0;
+  }
+  .card_text3 p{
+      font-size: 18px;
+      font-weight: 600;
+      text-transform: capitalize;margin: 0;
+  }
+  .card_text3 a{
+      font-size: 16px;
+      font-weight: 400;
+      margin-right: 16px;
+    text-transform: capitalize;
+    line-height: 2rem;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card4{
+    background-image: url('./images/img4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+   
+    display: flex;
+  
+    justify-content: center
+  
+}
+.card_text4{
+    cursor: pointer;
+     margin-bottom: 20px;
+  }
+  .card_text4 h2{
+      font-size: 42px;
+      font-weight: 500;margin: 0;
+      text-transform: capitalize;
+      color: white;
+  }
+  .card_text4 p{
+    color: white;
+
+      font-size: 18px;
+      font-weight: 600;
+      text-transform: capitalize;margin: 0;
+  }
+  .card_text4 a{
+      font-size: 16px;
+      font-weight: 400;
+      margin-right: 16px;
+    text-transform: capitalize;
+    line-height: 2rem;
+  }
+
+  
